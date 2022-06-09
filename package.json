@@ -1,0 +1,17 @@
+{
+  "name": "stellar-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stellarSdk.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.5",
+    "prompt-sync": "^4.2.0",
+    "stellar-sdk": "^10.1.2"
+  }
+}
