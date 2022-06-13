@@ -8,9 +8,8 @@ const prompt = require('prompt-sync')();
 console.log(" :For Making New Instance Of Account Module, Enter Below Details: ");
 const accountId = prompt("Enter Account Id: ");
 const sequenceNumber = prompt("Enter Sequence Number: ")
-const account = new stellarSdk.Account(accountId,sequenceNumber)
-
-const json = require('../Docs/Allmethods.json');
+const account = new stellarSdk.Account(accountId,sequenceNumber);
+console.log("Account Details",account);
 
 console.log("list Of Methods: ",{
     1:"getAccountId",
@@ -33,9 +32,7 @@ switch(methodName) {
         account.incrementSequenceNumber();
     default:
         console.log("Account Details: ", account);
-  }
-
-
+}
 
 
 

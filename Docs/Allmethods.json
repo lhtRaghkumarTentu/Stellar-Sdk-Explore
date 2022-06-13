@@ -48,6 +48,54 @@
                 "21":"tradeAggregation",
                 "22":"checkMemoRequired"
               }
+        },
+        {
+            "Asset-Module": {
+                "1":"getAssetType",
+                "2":"getCode",
+                "3":"getIssuer",
+                "4":"toChangeTrustXDRObject",
+                "5":"toTrustLineXDRObject",
+                "6":"toXDRObject",
+                "7":"isNative",
+                "8":"equals",
+                "9":"Compare",
+                "10":"fromOperation",
+                "11":"native",
+                "12":"_toXDRObject",
+                "13":"getRawAssetType"
+              
+              }  
+        },
+        {
+            "KeyPair-Module": {
+                "1":"random",
+                "2":"master",
+                "3":"publicKey",
+                "4":"rawPublicKey",
+                "5":"secret",
+                "6":"rawSecretKey",
+                "7":"fromPublicKey",
+                "8":"fromSecret",
+                "9":"fromRawEd25519Seed",
+                "10":"canSign",
+                "11":"sign",
+                "12":"signPayloadDecorated",
+                "13":"verify",
+                "14":"xdrMuxedAccount"
+              
+              }  
+        },
+        {
+            "Utils-Module": {
+                "1":"buildChallengeTx",
+                "2":"gatherTxSigners",
+                "3":"readChallengeTx",
+                "4":"validateTimeBounds",
+                "5":"verifyChallengeTxSigners",
+                "6":"verifyChallengeTxThresold",
+                "7":"verifyTxSignedBy"
+              }  
         }
     ]
 }
